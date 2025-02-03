@@ -9,8 +9,7 @@ int main() {
         printf("Negative");
     }
     else{
-        printf("Negative")
+        printf("Negative");
     }
-    printf("%s", welcome());
     return 0;
 }
