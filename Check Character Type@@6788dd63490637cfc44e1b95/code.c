@@ -11,7 +11,7 @@ int main() {
         }
     }
     else{
-        printf("digit")
+        printf("digit");
     }
     return 0;
 }
