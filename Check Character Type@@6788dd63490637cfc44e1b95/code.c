@@ -13,8 +13,8 @@ int main() {
     else if (a>=1){
         printf("Digit");
     }
-    else{
+    else if(a=='@'){
         printf("Special Character");
-    }
+    }}
     return 0;
 }
