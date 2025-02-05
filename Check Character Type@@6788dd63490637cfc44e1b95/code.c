@@ -10,11 +10,11 @@ int main() {
             printf("Consonant");
         }
     } 
-    else if (a>=1){
-        printf("Digit");
-    }
-    else if(a=='@'){
+    else if (a=='@'){
         printf("Special Character");
+    }
+    else if(a>=1){
+        printf("Digit");
     }
     return 0;
 }
