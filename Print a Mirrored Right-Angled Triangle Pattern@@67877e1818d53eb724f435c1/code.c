@@ -2,9 +2,11 @@
 int main() {
     int x;
     scanf("%d",&x);
-    for(int i=x;i>0;i--){
-        printf("-");
+    for(int i=0;i<n;i++){
+        for(int j=0;j<i;j++){
+            printf("-");
+        }
+        printf("\n");
     }
-    printf("\n");
     return 0;
 }
