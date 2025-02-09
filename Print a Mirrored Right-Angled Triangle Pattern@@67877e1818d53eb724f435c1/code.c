@@ -6,8 +6,8 @@ int main() {
         for(int j=x;j>i;j--){
             printf(" ");
         }
-        for(int k=0;)
-        printf("\n");
+        // for(int k=0;)
+        // printf("\n");
     }
     return 0;
 }
