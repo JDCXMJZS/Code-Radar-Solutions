@@ -16,7 +16,7 @@ int main() {
         for(int b=0;b<x;b++){
             printf("-");
         }
-        for(int z=n-1;z>0;z--){
+        for(int z=2*n-1;z>b;z--){
             printf("*");
         }
         printf("\n");
