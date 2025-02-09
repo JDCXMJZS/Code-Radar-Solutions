@@ -10,11 +10,6 @@ int main() {
             printf("*");
         }
         printf("\n");
-    for(int l=1;i<n;l++){
-        for(int f=0;f<l;f++){
-            printf("-");
-        }
-    }
     }
     return 0;
 }
