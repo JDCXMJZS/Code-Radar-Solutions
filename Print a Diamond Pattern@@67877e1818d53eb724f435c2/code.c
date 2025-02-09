@@ -13,10 +13,10 @@ int main() {
     
     }
     for(int x=1;x<n;x++){
-        for(int b=0;b<x;b++){
-            printf("-");
+        for(int b=1;b<=x;b++){
+            printf(" ");
         }
-        for(int z=2*n-1;z>x-1;z--){
+        for(int z=2*b-1;z>0;z--){
             printf("*");
         }
         printf("\n");
