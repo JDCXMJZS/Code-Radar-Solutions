@@ -10,8 +10,8 @@ int main() {
             printf("*");
         }
         printf("\n");
-    for(int x=n+1;x<n+n-1;x++){
-        for(int b=n;b<x;b++){
+    for(int x=1;x<n;x++){
+        for(int b=0;b<x;b++){
             printf("-");
         }
         printf("\n");
