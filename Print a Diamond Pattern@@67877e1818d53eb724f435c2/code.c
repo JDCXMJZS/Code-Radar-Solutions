@@ -10,6 +10,12 @@ int main() {
             printf("*");
         }
         printf("\n");
+    for(int x=1;x<n;x++){
+        for(int b=0;b<x;b++){
+            printf("*");
+        }
+        printf("\n");
+    }
     }
     return 0;
 }
