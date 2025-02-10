@@ -5,10 +5,10 @@ int main() {
     for(int i=0;i<x;i++){
         for(int j=0;j<i+1;j++){
             printf("%d ",num);
-            num=1;
         }
         num=0;
         printf("\n");
     }
+    num=1;
     return 0;
 }
