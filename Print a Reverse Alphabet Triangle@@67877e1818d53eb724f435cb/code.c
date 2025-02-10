@@ -7,6 +7,7 @@ int main() {
             printf("%C",65+num);
             num++;
         }
+        printf("\n");
     }
     return 0;
 }
