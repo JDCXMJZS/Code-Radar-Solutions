@@ -1,14 +1,11 @@
 #include <stdio.h>
 int main() {
-    int x,num=1;
+    int x;
     scanf("%d",&x);
-    for(int i=0;i<x;i++){
-        for(int j=x;j>0;j--){
-            printf("%C",64+num);
-            num++;
+    for(i=x;i>0;i--){
+        for(j=1;j<=x;j++){
+            printf("%C",65+j);
         }
-        num=1;
-        printf("\n");
     }
     return 0;
 }
