@@ -7,7 +7,7 @@ int main() {
             printf("%C",65+num);
             num++;
         }
-        num=1
+        num=1;
         printf("\n");
     }
     return 0;
