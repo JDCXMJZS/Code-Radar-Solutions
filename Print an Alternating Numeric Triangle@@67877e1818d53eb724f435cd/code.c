@@ -6,18 +6,18 @@ int main() {
         for(int j=1;j<i+1;j++){
             if(i%2!=0){
                 if(j%2!=0){
-                    printf("0");}
+                    printf("1");}
                 else{
-                    printf("1");
+                    printf("0");
                 }
                 }
             
             else{
                 if(j%2!=0){
-                    printf("1");
+                    printf("0");
                 }
                 else{
-                    printf("0");
+                    printf("1");
                 }
             }
         }
