@@ -11,7 +11,7 @@ int main() {
                     printf("1");
                 }
                 }
-            }
+            
             else{
                 if(j%2!=0){
                     printf("1");
