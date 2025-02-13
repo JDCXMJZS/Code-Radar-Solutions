@@ -8,13 +8,13 @@ int main() {
                 if(j%2!=0){
                     printf("1 ");}
                 else{
-                    printf("0");
+                    printf("0 ");
                 }
                 }
             
             else{
                 if(j%2!=0){
-                    printf("0 ");
+                    printf("0");
                 }
                 else{
                     printf("1");
