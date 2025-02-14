@@ -2,11 +2,12 @@
 int main() {
     int x;
     scanf("%d",&x);
-    for(int i=0;i<x;i++){
-        for(int j=x;j>i;j--){
+    for(int i=1;i<=x;i++){
+        for(int j=x;j>=i;j--){
             printf("-");
         }
-        printf("1\n");
+        printf("1%d1\n",);
+        
     }
     return 0;
 }
