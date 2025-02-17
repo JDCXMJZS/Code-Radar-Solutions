@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
-    int x,y,result;
-    float z;
+    int x,y,result,z;
     char operators;
     scanf("%d %d %c",&x,&y,&operators);
     switch(operators){
