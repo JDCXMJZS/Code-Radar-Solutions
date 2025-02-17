@@ -19,8 +19,8 @@ int main(){
             break;
         case '/':
             if(y!=0){
-                z=x/y;
-                printf("%d",z);}
+                z=x / y;
+                printf("%f",z);}
             else{
                 printf("Enter the valid number");
             }
