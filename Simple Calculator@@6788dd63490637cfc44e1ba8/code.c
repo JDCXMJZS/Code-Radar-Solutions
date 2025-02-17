@@ -22,7 +22,7 @@ int main(){
                 z=x/y;
                 printf("%d",z);}
             else{
-                printf("Enter the valid number")
+                printf("Enter the valid number");
             }
             break;
         default:
