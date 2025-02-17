@@ -6,8 +6,12 @@ int main() {
         for(int j=x;j>=i;j--){
             printf("-");
         }
-        printf("1\n");
-        
+        for(int z=1;z<=i;z++){
+            printf("%d",z);
+        }
+        for(int w=i-1;w>0;w--){
+            printf("%d",w);
+        }
     }
     return 0;
 }
