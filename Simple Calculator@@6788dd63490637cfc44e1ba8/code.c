@@ -20,7 +20,7 @@ int main(){
         case '/':
             if(y!=0){
                 z=x/y;
-                printf("%f",z);}
+                printf("%d",z);}
             else{
                 printf("Enter the valid number");
             }
