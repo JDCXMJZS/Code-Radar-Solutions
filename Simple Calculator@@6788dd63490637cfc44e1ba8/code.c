@@ -6,15 +6,19 @@ int main(){
     switch(operators){
         case '+':
             result=x+y;
+            printf("%d",result);
             break;
         case '-':
             result=x-y;
+            printf("%d",result);
             break;
         case '*':
             result=x*y;
+            printf("%d",result);
             break;
         case '/':
             result=x/y;
+            printf("%d",result);
             break;
         default{
             printf("Enter a valid number");
