@@ -18,8 +18,12 @@ int main(){
             printf("%d",result);
             break;
         case '/':
-            z=x/y;
-            printf("%d",z);
+            if(y!=0){
+                z=x/y;
+                printf("%d",z);}
+            else{
+                printf("Enter the valid number")
+            }
             break;
         default:
             printf("Enter a valid operator");
