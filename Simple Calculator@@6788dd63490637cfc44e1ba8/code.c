@@ -20,9 +20,8 @@ int main(){
             result=x/y;
             printf("%d",result);
             break;
-        default{
+        default:
             printf("Enter a valid number");
-        }
     }
     return 0;
 }
