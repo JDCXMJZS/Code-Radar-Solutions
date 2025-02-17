@@ -24,4 +24,5 @@ int main(){
             printf("Enter a valid number");
         }
     }
+    return 0;
 }
