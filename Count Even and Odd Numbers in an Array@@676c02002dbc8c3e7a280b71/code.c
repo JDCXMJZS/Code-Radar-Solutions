@@ -9,13 +9,13 @@ int main(){
         array_1[i]=x;
     }
     for(int j=0;j<a;j++){
-        if array_1[j]%2=0{
+        if( array_1[j]%2==0){
             even+=1;
         }
         else{
-            odd+=1
+            odd+=1;
         }
     }
-    printf("%d %d",&even,&odd);
+    printf("%d %d",even,odd);
     return 0;
 }
