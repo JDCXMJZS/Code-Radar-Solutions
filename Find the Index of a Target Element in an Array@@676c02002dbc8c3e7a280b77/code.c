@@ -10,7 +10,7 @@ int main(){
     for(int j=0;j<n;j++){
         sum+=1;
         if (array_1[j]==target){
-            printf("%d",sum);
+            printf("%d",sum-1);
             return 0;
         }
         else{
