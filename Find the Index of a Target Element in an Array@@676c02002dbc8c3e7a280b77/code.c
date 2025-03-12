@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-    int n,index,sum;
+    int n,index,sum,target;
+    scanf("%d",&target);
     scanf("%d",&n);
     int array_1[n];
     for(int i=0;i<n;i++){
