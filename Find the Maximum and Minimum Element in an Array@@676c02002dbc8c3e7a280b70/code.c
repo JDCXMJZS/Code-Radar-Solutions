@@ -10,16 +10,16 @@ int main(){
     }
     for(int j=0;j<n;j++){
         for(int b=0;b<n;b++){
-            if arr[j]>arr[b]{
+            if (arr[j]>arr[b]){
                 incr+=1;
             }
             else{
                 decrease+=1
             }
-            if incr==n-1{
+            if (incr==n-1){
                 printf("%d ",arr[j]);
             }
-            else if decrease==n-1{
+            else if (decrease==n-1){
                 printf("%d",arr[j]);
             }
         }
