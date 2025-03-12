@@ -17,11 +17,13 @@ int main(){
                 decrease+=1;
             }
             if (incr==n-1){
-                printf("%d ",arr[j]);
+                m=arr[j];
             }
             else if (decrease==n-1){
-                printf("%d",arr[j]);
+                l=arr[j];
             }
+            printf("%d %d",m,l);
+            return 0;
         }
         
     }
