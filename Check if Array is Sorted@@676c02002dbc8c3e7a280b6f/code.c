@@ -12,10 +12,9 @@ int main(){
         if (arr_1[j]>arr_1[j+1]){
             printf("Not Sorted");
             break;
-        }
-        else{
-            return printf("Sorted")
+            return 0;
         }
     }
+    printf("Sorted");
     return 0;
 }
