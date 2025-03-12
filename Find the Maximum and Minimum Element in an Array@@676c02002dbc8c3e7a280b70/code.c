@@ -22,9 +22,9 @@ int main(){
             else if (decrease==n-1){
                 m==arr[j];
             }
+            
         }
-        
+        printf("%d %d",l,m);
     }
-    printf("%d %d",l,m);
     return 0;
 }
