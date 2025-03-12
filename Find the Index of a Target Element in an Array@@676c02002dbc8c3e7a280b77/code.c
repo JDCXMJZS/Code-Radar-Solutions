@@ -11,9 +11,11 @@ int main(){
         if (array_1[j]==target){
             printf("%d",sum);
             return 0;
+            sum+=1;
         }
         else{
             continue;
+            sum+=1;
         }
 
     }
