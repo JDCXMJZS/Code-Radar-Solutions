@@ -17,10 +17,10 @@ int main(){
                 decrease+=1;
             }
             if (incr==n-1){
-                m=arr[j];
+                m==arr[j];
             }
             else if (decrease==n-1){
-                l=arr[j];
+                l==arr[j];
             }
             printf("%d %d",m,l);
             return 0;
