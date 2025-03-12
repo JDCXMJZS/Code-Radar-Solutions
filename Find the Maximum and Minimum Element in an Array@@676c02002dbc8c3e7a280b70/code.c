@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,incr,decrease;
+    int n,incr,decrease,l,m;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
@@ -17,12 +17,14 @@ int main(){
                 decrease+=1;
             }
             if (incr==n-1){
-                printf("%d ",arr[j]);
+                l==arr[j];
             }
             else if (decrease==n-1){
-                printf("%d",arr[j]);
+                m==arr[j];
             }
         }
         
     }
+    printf("%d %d",l,m);
+    return 0;
 }
