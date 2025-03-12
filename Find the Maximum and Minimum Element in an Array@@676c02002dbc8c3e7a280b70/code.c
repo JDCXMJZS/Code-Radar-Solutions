@@ -14,7 +14,7 @@ int main(){
                 incr+=1;
             }
             else{
-                decrease+=1
+                decrease+=1;
             }
             if (incr==n-1){
                 printf("%d ",arr[j]);
