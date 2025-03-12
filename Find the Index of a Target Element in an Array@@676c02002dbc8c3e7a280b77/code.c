@@ -16,6 +16,7 @@ int main(){
         else{
             continue;
         }
+        printf("%d",-1);
 
     }
 }
