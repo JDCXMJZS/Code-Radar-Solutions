@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,index;
+    int n,index,sum;
     scanf("%d",&n);
     int array_1[n];
     for(int i=0;i<n;i++){
@@ -11,11 +11,9 @@ int main(){
         if (array_1[j]==target){
             printf("%d",sum);
             return 0;
-            sum+=1;
         }
         else{
             continue;
-            sum+=1;
         }
 
     }
