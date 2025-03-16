@@ -8,14 +8,14 @@ int main(){
     }
     for(int j=0;j<n;j++){
         for(int k=0;k<n;k++){
-            if(array_1[i]==array_1[j]){
+            if(array_1[j]==array_1[k]){
                 count+=1;
             }
             else{
                 count+=0;
             }
         }
-        printf("%d %d\n",i,count+1);
+        printf("%d %d\n",j,count+1);
         }
     return 0;
 }
