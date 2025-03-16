@@ -12,9 +12,6 @@ int main(){
             if(array_1[j]==array_1[k]){
                 count+=1;
             }
-            else{
-                break;
-            }
         }
         printf("%d %d\n",array_1[j],count+1);
         }
