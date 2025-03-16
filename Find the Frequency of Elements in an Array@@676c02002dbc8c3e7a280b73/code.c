@@ -2,7 +2,7 @@
 int main(){
     int n,count;
     scanf("%d",&n);
-    int array_1[n];
+    int array_1[n],updated_array[n];
     for(int i=0;i<n;i++){
         scanf("%d",&array_1[i]);
     }
@@ -13,7 +13,13 @@ int main(){
                 count+=1;
             }
         }
-        printf("%d %d\n",array_1[j],count);
+        for(int z=0;z<n;z++){
+            if(count>1){
+            updated_array[z]=j;
+        }
+        else{
+            updated_array[z]=j;
+        }}
         }
     return 0;
 }
