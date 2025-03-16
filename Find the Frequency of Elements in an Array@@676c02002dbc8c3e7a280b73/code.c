@@ -7,10 +7,15 @@ int main(){
         scanf("%d",&array_1[i]);
     }
     for(int j=0;j<n;j++){
-        if(array_1[j] in array_1){
-            count+=1;
+        for(int k=0;k<n;k++){
+            if(array_1[i]==array_1[j]){
+                count+=1
+            }
+            else{
+                count+=0
+            }
         }
-        printf("%d %d",j,count);
-    }
+        printf("%d %d\n",i,count+1);
+        }
     return 0;
 }
