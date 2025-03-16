@@ -15,7 +15,7 @@ int main(){
                 count+=0;
             }
         }
-        printf("%d %d\n",j,count+1);
+        printf("%d %d\n",array_1[j],count+1);
         }
     return 0;
 }
