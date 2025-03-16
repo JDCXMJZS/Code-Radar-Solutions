@@ -12,7 +12,7 @@ int main(){
                 count+=1;
             }
             else{
-                count+=0;
+                break;
             }
         }
         printf("%d %d\n",array_1[j],count+1);
