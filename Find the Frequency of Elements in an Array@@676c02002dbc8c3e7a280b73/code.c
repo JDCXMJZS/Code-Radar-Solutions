@@ -9,10 +9,10 @@ int main(){
     for(int j=0;j<n;j++){
         for(int k=0;k<n;k++){
             if(array_1[i]==array_1[j]){
-                count+=1
+                count+=1;
             }
             else{
-                count+=0
+                count+=0;
             }
         }
         printf("%d %d\n",i,count+1);
