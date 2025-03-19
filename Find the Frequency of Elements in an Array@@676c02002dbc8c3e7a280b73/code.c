@@ -17,7 +17,7 @@ int main(){
             else{
                 updated_array[order-1]=updated_array[j];
             }
-            printf("%d %d",updated_array[j],count);
+            printf("%d %d\n",updated_array[j],count);
             }
         }
     return 0;
