@@ -13,7 +13,7 @@ int main(){
         }
     }
     for(int x;x<n-1;x++){
-        if(updated_array[x+1]!=updated_array[x]+1 && updated_array[x-1]!=updated_array[x]-1){
+        if((updated_array[x+1]!=updated_array[x]+1 )&& (updated_array[x-1]!=updated_array[x]-1)){
             printf("%d",updated_array[x]+1);
         }
     }
