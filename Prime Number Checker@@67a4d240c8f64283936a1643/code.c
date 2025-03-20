@@ -17,6 +17,12 @@ int main(){
         int z;
         scanf("%d",&z);
         result=CheckPrime(z);
+        if(result==1){
+            printf("%d",1);
+        }
+        else{
+            printf("d",0);
+        }
         printf("\n");
     }
 }
