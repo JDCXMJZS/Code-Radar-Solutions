@@ -1,24 +1,17 @@
 #include<stdio.h>
 int main(){
-    int n,index,sum,target;
-    scanf("%d",&target);
+    int n;
     scanf("%d",&n);
-    int array_1[n];
+    int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&array_1[i]);
+        scanf("%d",arr[i]);
     }
+    int target;
+    scanf("%d",&target);
     for(int j=0;j<n;j++){
-        sum+=1;
-        if (array_1[j]==target){
-            printf("%d",sum-1);
-            return 0;
+        if(j==target){
+            printf("%d",arr[j]);
         }
-        else{
-            continue;
-        }
-        
-
     }
-    printf("%d",-1);
     return 0;
 }
