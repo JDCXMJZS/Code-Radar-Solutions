@@ -13,7 +13,7 @@ int main() {
     if(target >= 0 && target < n) {
         printf("%d", arr[target]);
     } else {
-        printf(-1)
+        printf("%d",-1);
     }
     return 0;
 }
