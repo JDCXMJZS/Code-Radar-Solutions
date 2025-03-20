@@ -3,7 +3,7 @@ int CheckPrime(int n){
     if(n==1){
         return 0;
     }
-    for(int i=1;i<n;i++){
+    for(int i=2;i<n;i++){
         if(n%i==0){
             return 0;
         }
@@ -13,9 +13,10 @@ int CheckPrime(int n){
 int main(){
     int x,result;
     scanf("%d",&x);
-    for(int j=0;j<n;j++){
+    for(int j=0;j<x;j++){
         int z;
-        scanf("%d\n",&z);
+        scanf("%d",&z);
         result=CheckPrime(z);
+        printf("\n");
     }
 }
