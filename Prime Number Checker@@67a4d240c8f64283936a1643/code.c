@@ -1,31 +1,37 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <math.h>  // For sqrt() function
 
-int CheckPrime(int n){
-    if(n == 1){
-        return 0; // 1 is not a prime number
+// Function to check if a number is prime
+int CheckPrime(int n) {
+    if (n <= 1) {
+        return 0;  // 1 or lower are not prime
     }
-    for(int i = 2; i < n; i++){
-        if(n % i == 0){
-            return 0; // Not Prime
+    for (int i = 2; i <= sqrt(n); i++) {  // Only check up to sqrt(n)
+        if (n % i == 0) {
+            return 0;  // Not a prime number
         }
     }
-    return 1; // Prime
+    return 1;  // It's a prime number
 }
 
-int main(){
+int main() {
     int x, result;
-    scanf("%d", &x); // Input the number of test cases
-    for(int j = 0; j < x; j++){
+    
+    // Reading the number of test cases
+    scanf("%d", &x); 
+    
+    for (int j = 0; j < x; j++) {
         int z;
-        scanf("%d", &z); // Input number to check
-        result = CheckPrime(z); // Call CheckPrime function
-        if(result == 1){
-            printf("%d", 1); // Print 1 for Prime
-        }
-        else{
-            printf("%d", 0); // Print 0 for Not Prime
-        }
-        printf("\n");
+        
+        // Reading the number to be checked for primality
+        scanf("%d", &z);
+        
+        // Checking if the number is prime
+        result = CheckPrime(z);
+        
+        // Output 1 if prime, 0 if not prime
+        printf("%d\n", result);  // Directly print the result (1 or 0)
     }
+    
     return 0;
 }
