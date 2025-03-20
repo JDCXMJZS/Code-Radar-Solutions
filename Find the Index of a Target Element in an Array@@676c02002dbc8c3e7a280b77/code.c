@@ -10,9 +10,10 @@ int main(){
     scanf("%d",&target);
     for(int j=0;j<n;j++){
         if(arr[j]==target){
-            return j;
+            printf("%d",j);
+            return 0;
         }
     }
-    return -1;
+    return printf("%d",-1);
     return 0;
 }
