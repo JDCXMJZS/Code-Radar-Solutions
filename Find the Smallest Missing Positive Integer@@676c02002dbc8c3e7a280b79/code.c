@@ -10,9 +10,11 @@ int main(){
         if((arr[x+1]!=arr[x]+1 )&& (arr[x-1]!=arr[x]-1)){
             if (arr[x + 1] > arr[x]) {
                 printf("%d\n", arr[x] + 1);
+
             } else {
                 printf("%d\n", arr[x] - 1);
             }
+            break;
         }
     }
     return 0;
