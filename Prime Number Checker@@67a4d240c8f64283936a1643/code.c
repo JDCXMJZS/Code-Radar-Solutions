@@ -12,6 +12,7 @@ int isPrime(int n){
         }
         printf("%d",1);
     }
+    return 0;
 }
 int main(){
     int t;
