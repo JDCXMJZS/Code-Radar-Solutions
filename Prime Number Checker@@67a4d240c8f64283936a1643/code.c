@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <math.h>
 
-// Function to check if a number is prime
 int isPrime(int n) {
     if (n <= 1) {
         return 0; // Numbers less than or equal to 1 are not prime
