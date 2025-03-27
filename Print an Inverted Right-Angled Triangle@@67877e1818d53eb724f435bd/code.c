@@ -15,25 +15,12 @@ int main(){
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         for(int j=n;n>0;j--){
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
