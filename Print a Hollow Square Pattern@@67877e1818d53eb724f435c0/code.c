@@ -20,13 +20,13 @@ int main(){
     int n;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
-        if(i=1 || i=n ){
+        if(i==1 || i==n ){
             for(int j=0;j<n;j++){
                 printf("*");
             }}
         else{
             for(int x=1;x<=n;x++){
-                if(x=1 ||x=n){
+                if(x==1 ||x==n){
                     printf("*");
                 }
                 else{
@@ -37,4 +37,3 @@ int main(){
     }
     return 0;
 }
-
