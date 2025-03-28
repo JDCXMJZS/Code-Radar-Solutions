@@ -16,7 +16,7 @@ int main(){
     int n;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
-        int x=1
+        int x=1;
         for(int j=n;j>i;j--){
             printf("%d",x);
             x+=1;
