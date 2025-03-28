@@ -21,6 +21,7 @@ int main(){
             printf("%d ",x);
             x+=1;
         }
-        return 0;
+        printf("\n");
     }
+    return 0;
 }
