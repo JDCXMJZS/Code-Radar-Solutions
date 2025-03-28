@@ -22,7 +22,7 @@ int main(){
         for(int j=n-1;j>i;j--){
             printf(" ");
         }
-        for(int x=0;x<i+1;i++){
+        for(int x=0;x<i+1;x++){
             printf("%d",z);
             z+=1;
         }
