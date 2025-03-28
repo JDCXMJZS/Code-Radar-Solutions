@@ -23,7 +23,7 @@ int main(){
             printf(" ");
         }
         for(int x=0;x<i+1;x++){
-            printf("%d",z);
+            printf("%d ",z);
             z+=1;
         }
         printf("\n");
