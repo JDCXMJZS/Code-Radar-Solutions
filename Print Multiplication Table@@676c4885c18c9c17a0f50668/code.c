@@ -13,10 +13,8 @@
 int main(){
     int n;
     scanf("%d",&n);
-    for(int i=0;i<n;i++){
-        for(int j=1;j<i+2;j++){
-            printf("2 x %d = %d",j,2*j);
-        }
+    for(int i=1;i<=10;i++){
+        printf("2 x %d = %d",i,2*i);
         printf("\n");
     }
     return 0;
