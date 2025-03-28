@@ -17,7 +17,7 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=0;j<i+1;j++){
             int x=67;
-            printf("%c ",97+j);
+            printf("%c ",65+j);
         }
         printf("\n");
     }
