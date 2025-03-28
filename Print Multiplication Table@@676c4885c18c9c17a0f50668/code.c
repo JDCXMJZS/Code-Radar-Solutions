@@ -14,7 +14,7 @@ int main(){
     int n;
     scanf("%d",&n);
     for(int i=1;i<=10;i++){
-        printf("2 x %d = %d",i,2*i);
+        printf("%d x %d = %d",n,i,n*i);
         printf("\n");
     }
     return 0;
