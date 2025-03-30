@@ -28,7 +28,7 @@ int main(){
         for(int x=1;x<=i;x++){
             printf("%d",x);
         }
-        for(int z=i;i>=1;z--){
+        for(int z=i-1;i>=1;z--){
             printf("%d",z);
         }
         printf("\n");
