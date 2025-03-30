@@ -28,6 +28,9 @@ int main(){
         for(int j=1;j<=i+1;j++){
             printf("%d",j);
         }
+        for(int x=i+1;x>=1;x--){
+            printf("%d",x);
+        }
         printf("\n");
     }
     return 0;
