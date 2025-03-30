@@ -18,18 +18,21 @@
 // }
 
 #include<stdio.h>
-int main(){
+int main() {
     int n;
-    scanf("%d",&n);
-    for(int i=1;i<=n;i++){
-        for(int j=0;j<i;j++){
+    scanf("%d", &n);
+    for(int i = 1; i <= n; i++) {
+        // Print spaces
+        for(int j = 0; j < n - i; j++) {
             printf(" ");
         }
-        for(int x=1;x<=i;x++){
-            printf("%d",x);
+        // Print increasing numbers
+        for(int x = 1; x <= i; x++) {
+            printf("%d", x);
         }
-        for(int z=i-1;i>=1;z--){
-            printf("%d",z);
+        // Print decreasing numbers
+        for(int z = i - 1; z >= 1; z--) {
+            printf("%d", z);
         }
         printf("\n");
     }
