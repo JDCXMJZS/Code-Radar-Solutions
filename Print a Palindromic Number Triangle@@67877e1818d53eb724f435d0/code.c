@@ -31,7 +31,7 @@ int main() {
             printf("%d", x);
         }
         // Print decreasing numbers
-        for(int z = i - 1; z >= 1; z--) {
+        for(int z = i; z >= 1; z--) {
             printf("%d", z);
         }
         printf("\n");
