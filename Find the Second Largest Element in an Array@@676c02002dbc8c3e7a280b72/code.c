@@ -2,12 +2,16 @@
 int main(){
     int n,temp;
     scanf("%d",&n);
+    if(n==1){
+        return -1;
+    }
     int arr [n];
     for(int i=0;i<n;i++){
         int x;
         scanf("%d",&x);
         arr[i]=x;
     }
+    
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
             if(arr[j]>arr[j+1]){
