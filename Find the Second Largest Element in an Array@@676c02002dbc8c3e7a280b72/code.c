@@ -21,10 +21,6 @@ int main(){
                 arr[j+1]=temp;
             }
         }
-        else{
-            printf("%d",-1);
-            return 0;
-        }
     }
     printf("%d",arr[n-2]);
     return 0;
