@@ -3,7 +3,8 @@ int main(){
     int n,temp;
     scanf("%d",&n);
     if(n==1){
-        return -1;
+        printf("%d",-1);
+        return 0;
     }
     int arr [n];
     for(int i=0;i<n;i++){
