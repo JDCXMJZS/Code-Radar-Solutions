@@ -46,7 +46,7 @@ int main(){
         return 0;
     }
     int arr[n];
-    for(int i=0li<n;i++){
+    for(int i=0;i<n;i++){
         int x;
         scanf("%d",&x);
         arr[i]=x;
@@ -59,7 +59,7 @@ int main(){
                 arr[j+1]=temp;
             }
         }
-        printf("%d",arr[n-2]);
     }
+     printf("%d",arr[n-2]);
     return 0;
 }
