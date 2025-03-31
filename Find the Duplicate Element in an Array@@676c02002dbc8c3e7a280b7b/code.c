@@ -10,6 +10,7 @@ int main(){
         for(int j=i+1;j<n-1;j++){
             if(arr[j]==arr[i]){
                 printf("%d",arr[i]);
+                return 0;
             }
         }
     }
