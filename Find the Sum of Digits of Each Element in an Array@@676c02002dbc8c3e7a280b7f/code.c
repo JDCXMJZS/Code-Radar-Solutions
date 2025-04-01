@@ -12,7 +12,12 @@ int main(){
         digit=arr[i]%10;
         sum+=digit;
         arr[i]=arr[i]/10;}
-        printf("%d ",sum);
+        if(sum<0){
+            printf("%d",-sum);
+        }
+        else{
+            printf("%d",sum);
+        }
     }
     return 0;
 }
