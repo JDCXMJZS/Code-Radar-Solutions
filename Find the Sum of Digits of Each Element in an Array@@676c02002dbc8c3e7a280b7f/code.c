@@ -1,9 +1,8 @@
 #include<stdio.h>
 int main(){
     int n,sum=0,digit;
-    scanf("%d",&n){
+    scanf("%d",&n);
     int arr[n];
-    }
     for(int i=0;i<n;i++){
         while(arr[10]!=0){
         digit=arr[i]%10;
