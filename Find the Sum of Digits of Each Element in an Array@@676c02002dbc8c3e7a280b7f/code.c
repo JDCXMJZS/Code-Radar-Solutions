@@ -8,7 +8,7 @@ int main(){
         digit=arr[i]%10;
         sum+=digit;
         arr[i]=arr[i]/10;}
-        printf("%d",sum);
+        printf("%d ",sum);
     }
     return 0;
 }
