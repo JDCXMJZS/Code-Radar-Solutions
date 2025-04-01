@@ -13,10 +13,10 @@ int main(){
         sum+=digit;
         arr[i]=arr[i]/10;}
         if(sum<0){
-            printf("%d",-sum);
+            printf("%d ",-sum);
         }
         else{
-            printf("%d",sum);
+            printf("%d ",sum);
         }
     }
     return 0;
