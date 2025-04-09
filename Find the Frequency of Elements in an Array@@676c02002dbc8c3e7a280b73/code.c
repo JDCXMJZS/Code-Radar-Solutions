@@ -49,7 +49,12 @@ int main(){
     //     printf("%d %d",array_1[x],frequency);
     // }
     for(int y=0;y<n;y++){
-        printf("%d\n",array_1[y]);
+        for(int w=y,w<n-y;w++){
+            if(array_1[w]==array_1[w+1]){
+                frequency+=1;
+            }
+        }
+        printf("%d %d",array_1[y],frequency);
     }
     return 0;
 }
