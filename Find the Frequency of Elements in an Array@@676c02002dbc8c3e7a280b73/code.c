@@ -31,7 +31,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&array_1[i]);
     }
-    for(int i=0;i<n-1;i++){
+    for(int i=0;i<n;i++){
         for(int j=0;j<n-i-1;j++){
             if(array_1[j]>array_1[j+1]){
                 temp=array_1[j];
