@@ -48,8 +48,8 @@ int main(){
     //     }
     //     printf("%d %d",array_1[x],frequency);
     // }
-    for(int i=0;i<n-1;i++){
-        printf("%d\n",array_1[i]);
+    for(int y=0;y<n-1;y++){
+        printf("%d\n",array_1[y]);
     }
     return 0;
 }
