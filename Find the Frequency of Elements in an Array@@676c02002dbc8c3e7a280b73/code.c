@@ -42,12 +42,17 @@ int main(){
     }
     for(int x=0;x<n;x++){
         frequency=1;
-        for(int z=x;z<n;z++){
-            if(array_1[z]==array_1[z+1]){
-                frequency+=1;
-            }
+        if(array_1[x+1]==array_1[x]){
+            continue;
         }
-        printf("%d %d\n",array_1[x],frequency);
+        else{
+            for(int z=x;z<n;z++){
+                if(array_1[z]==array_1[z+1]){
+                    frequency+=1;
+                }   
+            }
+            printf("%d %d\n",array_1[x],frequency);
+        }
     }
     return 0;
 }
