@@ -47,7 +47,7 @@ int main(){
                 frequency+=1;
             }
         }
-        printf("%d %d",array_1[x],frequency);
+        printf("%d %d\n",array_1[x],frequency);
     }
     return 0;
 }
