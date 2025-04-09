@@ -25,7 +25,7 @@
 
 #include<stdio.h>
 int main(){
-    int n,temp,frequency=0;
+    int n,temp,frequency=1;
     scanf("%d",&n);
     int array_1[n];
     for(int i=0;i<n;i++){
@@ -41,7 +41,7 @@ int main(){
         }
     }
     for(int x=0;x<n;x++){
-        frequency=0;
+        frequency=1;
         for(int z=x;z<n;z++){
             if(array_1[z]==array_1[z+1]){
                 frequency+=1;
