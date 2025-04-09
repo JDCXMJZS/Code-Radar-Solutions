@@ -46,7 +46,7 @@ int main(){
             continue;
         }
         else{
-            for(int z=x+1;z<n;z++){
+            for(int z=x;z<n;z++){
                 if(array_1[z]==array_1[z+1]){
                     frequency+=1;
                 }   
