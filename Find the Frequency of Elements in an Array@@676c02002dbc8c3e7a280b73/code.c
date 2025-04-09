@@ -54,7 +54,7 @@ int main(){
                 frequency+=1;
             }
         }
-        printf("%d %d",array_1[y],frequency);
+        printf("%d %d\n",array_1[y],frequency);
     }
     return 0;
 }
