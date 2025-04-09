@@ -42,7 +42,7 @@ int main(){
     }
     for(int x=0;x<n;x++){
         frequency=0;
-        for(int z=x;z<n-x;z++){
+        for(int z=x;z<n;z++){
             if(array_1[z]==array_1[z+1]){
                 frequency+=1;
             }
