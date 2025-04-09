@@ -40,13 +40,16 @@ int main(){
             }
         }
     }
-    for(int x=0;x<n;x++){
-        for(int z=x;z<n-x;z++){
-            if(array_1[z]==array_1[z+1]){
-                frequency+=1;
-            }
-        }
-        printf("%d %d",array_1[x],frequency );
+    // for(int x=0;x<n;x++){
+    //     for(int z=x;z<n-x;z++){
+    //         if(array_1[z]==array_1[z+1]){
+    //             frequency+=1;
+    //         }
+    //     }
+    //     printf("%d %d",array_1[x],frequency);
+    // }
+    for(int i=0;i<n;i++){
+        printf("%d\n",array_1[i]);
     }
     return 0;
 }
