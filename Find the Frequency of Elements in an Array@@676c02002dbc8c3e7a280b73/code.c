@@ -42,11 +42,11 @@ int main(){
     }
     for(int x=0;x<n;x++){
         frequency=1;
-        if(array_1[x+1]==array_1[x]){
+        if(x>0 && array_1[x]==array_1[x-1]){
             continue;
         }
         else{
-            for(int z=x;z<n;z++){
+            for(int z=x+1;z<n;z++){
                 if(array_1[z]==array_1[z+1]){
                     frequency+=1;
                 }   
