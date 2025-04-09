@@ -48,7 +48,7 @@ int main(){
     //     }
     //     printf("%d %d",array_1[x],frequency);
     // }
-    for(int y=0;y<n-1;y++){
+    for(int y=0;y<n;y++){
         printf("%d\n",array_1[y]);
     }
     return 0;
